@@ -1,9 +1,12 @@
-# doc2pdf
-A simple docker application to convert doc, docx, ppt and pptx files to pdf.
+# py31_alpine_doc2pdf_image_to_text
 
-![](docker.gif)
++ `git clone ...`
++ `cd doc2pdf`
++ `sudo docker build -t py31_alpine_doc2pdf_image_to_text .`
++ `sudo docker run -it -v ./app:/app py31_alpine_doc2pdf_image_to_text`
 
-## Instructions
-1. Make sure you have docker and docker-compose installed on your system
-2. Place your doc/docx/ppt/pptx files inside the /src/input directory
-3. Run `docker-compose up` and enjoy your converted files! (They are available inside the /src/output directory)
+! важно указать `VOLUME` том при запуске контейнер, результат будет сохранен в директории проекта
+! `start.sh` инициализирует запуск скрипта внутри контейнера
+! `FILE_PATH_IMAGE = 'input_image'` - исходные файлы примеры для извлечения текста
+! `FILE_PATH_DOCX = 'input_docx'` - исходные файлы примеры для преобразования в `pdf`
+! __result__ `FILE_OUTPUT` - результат работы скрипта, по умолчанию папка `./app/output`
