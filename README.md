@@ -1,6 +1,7 @@
 # py31_alpine_doc2pdf_image_to_text
 
-+ `git clone ...`
++ `git clone https://github.com/AlexanderSipko/py31_alpine_doc2pdf_image_to_text.git`
++ `branch main`
 + `cd doc2pdf`
 + `sudo docker build -t py31_alpine_doc2pdf_image_to_text .`
 + `sudo docker run -it -v ./app:/app py31_alpine_doc2pdf_image_to_text`
