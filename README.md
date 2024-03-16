@@ -10,3 +10,9 @@
 ! `FILE_PATH_IMAGE = 'input_image'` - исходные файлы примеры для извлечения текста
 ! `FILE_PATH_DOCX = 'input_docx'` - исходные файлы примеры для преобразования в `pdf`
 ! __result__ `FILE_OUTPUT` - результат работы скрипта, по умолчанию папка `./app/output`
+
+## inform
+
++ `main.py` - logic
++ `start.sh` - `bach command`
++ `requirements.txt` - `зависимости python`
