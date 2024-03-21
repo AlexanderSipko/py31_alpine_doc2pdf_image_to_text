@@ -2,14 +2,13 @@ from subprocess import Popen, PIPE
 import glob
 import time
 from PIL import Image
-
 import pytesseract
 
 FILE_PATH_IMAGE = 'input_image'
 FILE_PATH_DOCX = 'input_docx'
-
 FILE_OUTPUT = 'output'
 
+# format file doc && image
 types = ['doc', 'docx', 'pptx', 'ppt']
 types_images = ['jpeg', 'img', 'jpg', 'png', 'gif']
 
