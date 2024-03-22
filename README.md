@@ -21,6 +21,6 @@
 + `main.py` - logic
 + `start.sh` - `bach command`
 + `requirements.txt` - `зависимости python`
-+ 
++ test line
 
 __Thanks to: JannisHajda Jannis Hajda__
