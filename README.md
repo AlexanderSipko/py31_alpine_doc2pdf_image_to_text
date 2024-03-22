@@ -12,6 +12,10 @@
 + ! `FILE_PATH_DOCX = 'input_docx'` - исходные файлы примеры для преобразования в `pdf`
 + ! __result__ `FILE_OUTPUT` - результат работы скрипта, по умолчанию папка `./app/output`
 
+## Action
+
++ build action
+
 ## inform
 
 + `main.py` - logic

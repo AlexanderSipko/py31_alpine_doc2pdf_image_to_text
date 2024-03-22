@@ -4,6 +4,7 @@ import time
 from PIL import Image
 import pytesseract
 
+# path name
 FILE_PATH_IMAGE = 'input_image'
 FILE_PATH_DOCX = 'input_docx'
 FILE_OUTPUT = 'output'
